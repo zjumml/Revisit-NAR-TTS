@@ -22,8 +22,11 @@ This repo contains official PyTorch implementation of:
 
 - [PortaSpeech: Portable and High-Quality Generative Text-to-Speech](https://proceedings.neurips.cc/paper/2021/file/748d6b6ed8e13f857ceaa6cfbdca14b8-Paper.pdf) (NeurIPS 2021)  
 [Demo page](https://portaspeech.github.io/) | [HuggingFace🤗 Demo](https://huggingface.co/spaces/NATSpeech/PortaSpeech)
-- [DiffSinger: Singing Voice Synthesis via Shallow Diffusion Mechanism](https://arxiv.org/abs/2105.02446) (DiffSpeech) (AAAI 2022)  
-[Demo page](https://diffsinger.github.io/) | [Project page](https://github.com/MoonInTheRiver/DiffSinger) | [HuggingFace🤗 Demo](https://huggingface.co/spaces/NATSpeech/DiffSpeech)
+- [DiffSinger: Singing Voice Synthesis via Shallow Diffusion Mechanism](https://arxiv.org/abs/2105.02446) (DiffSpeech) (
+  AAAI 2022)  
+  [Demo page](https://diffsinger.github.io/) | [Project page](https://github.com/MoonInTheRiver/DiffSinger)
+  | [HuggingFace🤗 Demo](https://huggingface.co/spaces/NATSpeech/DiffSpeech)
+- [Revisiting Over-Smoothness in Text to Speech]() | [Demo Page](https://revisittts.github.io/revisittts/)
 
 ## Key Features 
 We implement the following features in this framework:
