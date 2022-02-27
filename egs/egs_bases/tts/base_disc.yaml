@@ -1,0 +1,23 @@
+use_cond_disc: true
+disc_hidden_size: 256
+disc_loss_type: LSGAN # LSGAN|RaLSGAN
+disc_time_len: 512
+disc_norm_type: in
+disc_rerun_gen: false
+disc_kernel: 3
+disc_num_layers: 3
+
+disc_lr: 0.0001            # Discriminator's learning rate.
+discriminator_optimizer_params:
+  eps: 1.0e-6            # Discriminator's epsilon.
+  weight_decay: 0.0      # Discriminator's weight decay coefficient.
+discriminator_grad_norm: 1 # Discriminator's gradient norm.
+
+disc_start_steps: 0
+disc_interval: 1
+lambda_fm: 0.0
+lambda_mel_adv: 0.05
+
+max_tokens: 30000
+max_sentences: 64
+max_updates: 400000

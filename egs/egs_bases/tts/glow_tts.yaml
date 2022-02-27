@@ -1,0 +1,19 @@
+base_config: ./fs.yaml
+task_cls: tasks.tts.glow_tts.GlowTTSTask
+
+# model configs
+n_sqz: 2
+n_split: 4
+n_blocks_dec: 12
+glow_hidden: 192
+n_block_layers: 4
+dec_kernels: 5
+frames_multiple: 2
+noise_scale: 0.8
+inv_conv_type: near
+share_cond_layers: false
+
+max_tokens: 40000
+max_sentences: 64
+max_updates: 300000
+use_step_lr: false

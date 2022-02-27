@@ -1,0 +1,10 @@
+base_config:
+  - ./fs2_orig.yaml
+  - ./base_disc.yaml
+task_cls: tasks.tts.fs_adv.FastSpeechAdvTask
+
+# mel decoder
+dec_inp_add_noise: true
+z_channels: 64
+optimizer_adam_beta1: 0.5
+optimizer_adam_beta2: 0.999
