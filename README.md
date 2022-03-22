@@ -1,9 +1,3 @@
-<p align="center">
-    <br>
-    <img src="assets/logo.png" width="200"/>
-    <br>
-</p>
-
 <h2 align="center">
 <p> NATSpeech: A Non-Autoregressive Text-to-Speech Framework</p>
 </h2>
